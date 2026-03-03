@@ -97,4 +97,5 @@ for nt in grammar:
 
 print("\nFOLLOW Sets:")
 for nt in grammar:
+
     print(f"FOLLOW({nt}) = {FOLLOW[nt]}")

@@ -57,4 +57,5 @@ for state in dfa:
 print("DFA Final States:")
 for state in dfa:
     if any(s in final_states for s in state):
+
         print(set(state))
